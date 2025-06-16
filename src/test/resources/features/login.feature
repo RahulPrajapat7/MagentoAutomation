@@ -1,5 +1,5 @@
 Feature: Login to Magento Website
-
+  @login
   Scenario: User logs in with valid credentials
     Given User navigates to login page
     When User enters valid email and password

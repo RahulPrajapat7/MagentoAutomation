@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Magento Suite" verbose="1">
+    <test name="Signup then Login Flow">
+        <classes>
+            <class name="runners.SignUpRunner"/>
+            <class name="runners.LoginRunner"/>
+        </classes>
+    </test>
+</suite>

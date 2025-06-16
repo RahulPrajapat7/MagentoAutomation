@@ -17,7 +17,7 @@ public class SignupLoginSteps {
 
     @When("User enters first name, last name, email and password")
     public void user_enters_signup_details() {
-        signupPage.enterDetails("Rahul", "Prajapati", "rahul123@gmail.com", "Test@1234");
+        signupPage.enterDetails("Rahul", "Prajapati", "rahul1234@gmail.com", "Test@1234");
     }
 
     @When("User clicks on create an account")

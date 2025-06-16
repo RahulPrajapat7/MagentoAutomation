@@ -18,7 +18,7 @@ public class LoginSteps {
 
     @When("User enters valid email and password")
     public void user_enters_valid_email_and_password() {
-        loginPage.enterEmail("rahul123@gmail.com");
+        loginPage.enterEmail("rahul1234@gmail.com");
         loginPage.enterPassword("Test@1234");
     }
 
