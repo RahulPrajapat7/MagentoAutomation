@@ -25,7 +25,7 @@ public class LoginPage {
     private WebElement signInButton;
 
     @FindBy(xpath = "//span[contains(text(),'Welcome')]")
-    private WebElement welcomeTitle; // Can be used to verify login
+    private WebElement welcomeTitle;
 
     // Actions
     public void enterEmail(String email) {
